@@ -38,7 +38,7 @@ CC = @gcc
 LD = @gcc
 ASM = @nasm
 ASMFLAGS = -f coff
-MD = -mkdir
+MD = -mkdir -p
 RM = @rm -f
 
 
